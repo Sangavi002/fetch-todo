@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+    font-family: system-ui;
+    letter-spacing: 2px;
+    background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+    -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+} 
+table, th{
+    border: 5px solid white;
+    border-collapse: collapse;
+    padding: 8px 10px;
+    text-align: center;
+}
+table {
+    width: 100%;
+}
+thead{
+    background: rgb(237, 245, 22);
+    font-size: 23px;
+    letter-spacing: .8px;
+    color: rgb(12, 122, 9);
+    font-weight: 900;
+}
+td{
+    border-bottom: 2px solid rgb(117, 115, 115);
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: .5px;
+}
